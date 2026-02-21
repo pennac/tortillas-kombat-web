@@ -1,0 +1,21 @@
+{
+    "title": "08: El Desierto de Pimentón",
+    "description": "Un infierno rojo de polvo y calor. El Barón del Chorizo enseña que la mejor defensa es un ataque ardiente. Patato despierta su fuego interior.",
+    "cover": "../capitoli/capitulo8/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

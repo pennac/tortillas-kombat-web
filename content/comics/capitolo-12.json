@@ -1,0 +1,21 @@
+{
+    "title": "12: El Espíritu del Pan",
+    "description": "Entre ruinas antiguas, un gigante de miga enseña que nadie puede sostenerse solo. Aceituna se convierte en el pilar fundamental de Patato.",
+    "cover": "../capitoli/capitulo12/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

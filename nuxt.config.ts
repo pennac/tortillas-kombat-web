@@ -1,0 +1,37 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  ssr: true,
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    }
+  },
+  css: ['~/assets/css/main.css'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/content',
+    '@vueuse/nuxt',
+    '@vueuse/motion/nuxt',
+    'nuxt-gtag'
+  ],
+  gtag: {
+    id: 'G-XXXXXXXXXX',
+    initialConsent: false
+  },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'es'
+      },
+      title: 'Tortillas Kombat - The Steam Scroll',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ]
+    }
+  },
+  content: {
+    // optional content configuration
+  }
+})

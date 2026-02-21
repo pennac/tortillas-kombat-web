@@ -1,0 +1,21 @@
+{
+    "title": "16: La Sartén Vacía",
+    "description": "Sin ingredientes, confiscados por el régimen. Patato-Pan está solo. Aceituna le lanza su herencia: una única anchoa que vale por un ejército.",
+    "cover": "../capitoli/capitulo5/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

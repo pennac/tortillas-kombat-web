@@ -1,0 +1,21 @@
+{
+    "title": "09: El Bosque Apestoso",
+    "description": "Una ciénaga verde y tóxica. La Abuela Ajo demuestra que el verdadero poder es la persistencia: un aroma que nunca se va.",
+    "cover": "../capitoli/capitulo9/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

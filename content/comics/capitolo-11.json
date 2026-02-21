@@ -1,0 +1,21 @@
+{
+    "title": "11: El Laberinto de Pimientos",
+    "description": "Una jungla donde la lógica no existe. Los gemelos del azar juegan con la mente de Patato. La lección es la sorpresa: lo dulce y lo picante a la vez.",
+    "cover": "../capitoli/capitulo11/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

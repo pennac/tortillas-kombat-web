@@ -1,0 +1,21 @@
+{
+    "title": "05: El Fruto Prohibido",
+    "description": "En el mercado negro, el Joven Patato prueba lo impensable: la cebolla. Una explosión de sabor que cambiará su vida para siempre.",
+    "cover": "../capitoli/capitulo5/VCover.mp4",
+    "releaseDate": "2026-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

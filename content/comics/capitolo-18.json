@@ -1,0 +1,21 @@
+{
+    "title": "18: La Semifinal Brutal",
+    "description": "Contra la fuerza pura. Un culturista de cáscara impenetrable. Patato usa el aceite para hacer caer al gigante por su propio peso.",
+    "cover": "../capitoli/capitulo18/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

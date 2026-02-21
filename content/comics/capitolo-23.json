@@ -1,0 +1,21 @@
+{
+    "title": "23: El Gran Banquete (Epílogo)",
+    "description": "Un año después. Sartenópolis es verde y libre. Una mesa larga reúne a amigos y antiguos enemigos. La guerra ha terminado; el almuerzo ha comenzado.",
+    "cover": "../capitoli/capitulo23/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

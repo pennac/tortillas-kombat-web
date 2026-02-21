@@ -1,0 +1,21 @@
+{
+    "title": "21: El Asedio del Cascarón",
+    "description": "El Mecha-Trono destruye la arena. Patato y Roto luchan juntos. Roto sacrifica su espátula de oro para bloquear los engranajes del monstruo.",
+    "cover": "../capitoli/capitulo21/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

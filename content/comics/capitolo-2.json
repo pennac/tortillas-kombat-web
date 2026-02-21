@@ -1,0 +1,21 @@
+{
+    "title": "02: El Robo de la Aceituna",
+    "description": "Una pequeña ladrona corre por los tejados. Cuando la ley del más fuerte está a punto de aplastarla, un cucharón de madera cambia su destino.",
+    "cover": "../capitoli/capitulo2/VCover.mp4",
+    "releaseDate": "2025-03-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "title": "01: El Vapor de Sartenópolis",
+    "description": "En las calles oxidadas de la capital, el vapor oculta la miseria. Un ronin solitario llega a la ciudad buscando algo más que comida sintética.",
+    "cover": "../capitoli/capitulo1/VCover.mp4",
+    "releaseDate": "2023-01-01",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/Vcover.mp4",
+            "textOverlay": "En las calles oxidadas de la capital, el vapor oculta la miseria. Un ronin solitario llega a la ciudad buscando algo más que comida sintética.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V01.mp4",
+            "textOverlay": "Era del Colesterol, Año 20XX. Sartenópolis: Donde el aceite nunca deja de hervir.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V02.mp4",
+            "textOverlay": "PATATAS REGENERADAS - OFERTA! En las calles, los ''impuros'' se arrastran por una gota de salsa.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V03.mp4",
+            "textOverlay": "¡LA PUREZA ES ORDEN. EL ORDEN ES SABOR. El Ojo del Tuorlo lo ve todo.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V04.mp4",
+            "textOverlay": "La Guardia avanza. Sin preguntas. Sin piedad.",
+            "textEffect": "CLANK! CLANK!"
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V05.mp4",
+            "textOverlay": "DOCUMENTACIÓN! ¡AHORA! El miedo tiene sabor metálico.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V06.mp4",
+            "textOverlay": "¡GERMINACIÓN ILEGAL DETECTADA! Ser diferente es sentencia de muerte.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V07.mp4",
+            "textOverlay": "Pero el vapor oculta secretos. Un guerrero cocinado a fuego lento.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V08.mp4",
+            "textOverlay": "Ojos que han visto caer imperios.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V09.mp4",
+            "textOverlay": "Una sombra pequeña y rápida rompe el miedo.",
+            "textEffect": "¡ZAS!"
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V10.mp4",
+            "textOverlay": "¡LADRONA! ¡DETENGAN A LA ACEITUNA!",
+            "textEffect": "WEEE-OOO-WEEE-OOO"
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V11.mp4",
+            "textOverlay": "Se acabó el descanso.",
+            "textEffect": "K-CLACK"
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V12.mp4",
+            "textOverlay": "Oye, Huevo... te vas a quemar.",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo1/V13.mp4",
+            "textOverlay": "El Ronin entra en la cocina.",
+            "textEffect": ""
+        }
+    ]
+}

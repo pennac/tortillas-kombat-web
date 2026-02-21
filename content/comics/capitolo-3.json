@@ -1,0 +1,21 @@
+{
+    "title": "03: El Banquete de los Pobres",
+    "description": "Un convoy militar lleno de verduras reales es interceptado. Esa noche, el barrio bajo conoce el verdadero sabor, pero el cielo trae una advertencia digital.",
+    "cover": "../capitoli/capitulo3/VCover.mp4",
+    "releaseDate": "2026-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

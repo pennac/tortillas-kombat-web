@@ -1,0 +1,21 @@
+{
+    "title": "07: El Santuario de Sal",
+    "description": "De vuelta al presente. En las Minas de Sal, Patato debe endurecer su piel para soportar el peso del mundo. La primera lección es la consistencia.",
+    "cover": "../capitoli/capitulo7/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

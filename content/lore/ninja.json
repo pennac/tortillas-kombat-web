@@ -1,0 +1,16 @@
+{
+    "id": "ninja",
+    "name": "Shadow Steam",
+    "quote": "L'ombra è solo vapore non illuminato.",
+    "stats": {
+        "forza": 6,
+        "velocita": 9,
+        "tecnica": 8,
+        "vapore": 5
+    },
+    "media": {
+        "portrait": "../capitoli/capitulo1/cover.jpeg",
+        "videoIdle": "../capitoli/capitulo1/Vcover.mp4"
+    },
+    "description": "Cresciuto nei bassifondi di Vaporeide, Shadow Steam ha appreso le arti marziali furtive. Utilizza l'energia termica per mimetizzarsi nell'ambiente circostante e colpire silenziosamente i suoi avversari."
+}

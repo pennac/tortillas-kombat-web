@@ -1,0 +1,21 @@
+{
+    "title": "06: La Traición Mecánica",
+    "description": "El amanecer trae la acusación. Roto denuncia a su hermano por impureza. Un juicio farsa, un uniforme rasgado y el exilio al desierto.",
+    "cover": "../capitoli/capitulo6/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo6/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "title": "19: Alma contra Máquina (La Gran Final - Parte 1)",
+    "description": "Patato-Pan vs Roto. Madera vs Oro. Mientras cocinan y luchan, Roto confiesa su envidia: la técnica nunca pudo superar al talento natural.",
+    "cover": "../capitoli/capitulo19/VCover.mp4",
+    "releaseDate": "2027-04-21",
+    "audioTheme": "../audio/TKILTRAILERHYPE.mp3",
+    "panels": [
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V01.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        },
+        {
+            "type": "Video",
+            "src": "../capitoli/capitulo2/V02.mp4",
+            "textOverlay": "",
+            "textEffect": ""
+        }
+    ]
+}
