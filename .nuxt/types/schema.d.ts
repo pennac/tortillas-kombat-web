@@ -223,7 +223,7 @@ import { NuxtModule, ModuleDependencyMeta } from '@nuxt/schema'
 
       defaultLocale: any,
 
-      integrity: any,
+      integrity: number,
 
       experimental: {
          stripQueryParameters: boolean,
