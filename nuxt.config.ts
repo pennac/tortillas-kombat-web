@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2026-02-22',
   ssr: true,
   nitro: {
     prerender: {
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
     'nuxt-gtag'
   ],
   gtag: {
-    id: 'G-XXXXXXXXXX',
+    id: 'G-PEEEXTNHPD',
     initialConsent: false
   },
   app: {

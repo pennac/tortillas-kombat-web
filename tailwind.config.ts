@@ -18,7 +18,7 @@ export default <Partial<Config>>{
                 }
             },
             fontFamily: {
-                header: ['Cinzel', 'serif'],
+                header: ['"Potta One"', 'cursive'],
                 body: ['Lora', 'serif'],
             }
         }
