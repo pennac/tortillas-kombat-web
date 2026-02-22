@@ -3,7 +3,7 @@
     <!-- Idle Video Background -->
     <div class="absolute inset-0 z-0">
       <video v-if="character.media?.videoIdle" :src="character.media?.videoIdle" autoplay loop muted playsinline class="w-full h-full object-cover opacity-40"></video>
-      <img v-else src="../capitoli/capitulo1/cover.jpeg" class="w-full h-full object-cover opacity-30 sepia" />
+      <img v-else src="/capitoli/capitulo1/Cover.jpeg" class="w-full h-full object-cover opacity-30 sepia" />
       <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/60 to-transparent"></div>
     </div>
 
