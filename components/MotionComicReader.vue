@@ -46,7 +46,7 @@
           v-motion
           :initial="{ opacity: 0, y: 30 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800 } }"
-          class="absolute bottom-12 left-0 w-full z-10 px-6 flex flex-col items-center text-center"
+          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-28 md:pb-12 flex flex-col items-center text-center"
         >
           <div class="bg-white/95 backdrop-blur-sm border-2 border-zinc-900 p-5 shadow-[4px_4px_0_rgba(24,24,27,1)] max-w-[90%]">
             <p class="font-body text-base md:text-lg text-zinc-900 font-medium leading-relaxed">
