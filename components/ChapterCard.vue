@@ -20,7 +20,7 @@
       <div class="p-4 relative z-10 bg-white">
         <h3 class="font-header font-bold text-xl text-zinc-900 mb-1 group-hover:text-amber-800 transition-colors">{{ title }}</h3>
         <p class="font-body text-sm text-zinc-700 line-clamp-2 mb-4">{{ description }}</p>
-        <span class="inline-block border-2 border-zinc-900 text-zinc-900 px-3 py-1 font-header font-bold text-xs group-hover:bg-zinc-100 transition-colors">
+        <span class="inline-block border-2 border-zinc-900 text-zinc-900 px-8 py-4 font-header font-bold text-xl md:text-2xl uppercase shadow-[4px_4px_0_rgba(24,24,27,1)] group-hover:shadow-[2px_2px_0_rgba(24,24,27,1)] group-hover:translate-x-0.5 group-hover:translate-y-0.5 group-hover:bg-amber-400 transition-all duration-200">
           Leer Capítulo
         </span>
       </div>

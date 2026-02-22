@@ -23,7 +23,7 @@
          
         <button 
           @click="isModalGateOpen = true"
-          class="bg-white text-zinc-900 border-2 border-zinc-900 font-header text-xl py-4 px-8 hover:bg-zinc-900 hover:text-white transition-colors uppercase tracking-widest cursor-pointer mt-8 shadow-[4px_4px_0_rgba(24,24,27,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+          class="bg-amber-400 text-zinc-900 border-2 border-zinc-900 font-header font-black text-xl md:text-2xl py-4 px-8 uppercase tracking-widest cursor-pointer mt-8 shadow-[8px_8px_0_rgba(24,24,27,1)] hover:shadow-[2px_2px_0_rgba(24,24,27,1)] hover:translate-x-1.5 hover:translate-y-1.5 transition-all duration-200"
         >
           DESBLOQUEAR ARCHIVOS
         </button>

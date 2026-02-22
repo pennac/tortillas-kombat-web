@@ -34,9 +34,9 @@
           v-motion
           :initial="{ opacity: 0, scale: 0.3, rotate: -15 }"
           :visibleOnce="{ opacity: 1, scale: 1.1, rotate: 5, transition: { type: 'spring', stiffness: 300, damping: 10 } }"
-          class="absolute top-[30%] left-0 w-full z-20 pointer-events-none flex justify-center"
+          class="absolute top-[30%] left-0 w-full z-20 pointer-events-none flex justify-center px-4"
         >
-           <p class="font-header text-5xl md:text-6xl text-amber-600 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
+           <p class="font-header text-4xl md:text-7xl text-amber-600 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
              {{ panel.textEffect }}
            </p>
         </div>
@@ -46,9 +46,9 @@
           v-motion
           :initial="{ opacity: 0, y: 30 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800 } }"
-          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-28 md:pb-12 flex flex-col items-center text-center"
+          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-24 md:pb-8 flex flex-col items-center text-center"
         >
-          <div class="bg-white/95 backdrop-blur-sm border-2 border-zinc-900 p-5 shadow-[4px_4px_0_rgba(24,24,27,1)] max-w-[90%]">
+          <div class="bg-white/95 backdrop-blur-sm border-2 border-zinc-900 p-5 shadow-[4px_4px_0_rgba(24,24,27,1)] max-w-[90%] md:max-w-2xl">
             <p class="font-body text-base md:text-lg text-zinc-900 font-medium leading-relaxed">
               {{ panel.textOverlay }}
             </p>
@@ -88,12 +88,12 @@
       <button 
         v-if="chapter && chapter.audioTheme"
         @click="toggleAudio"
-        class="absolute bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-white border-2 border-zinc-900 shadow-[4px_4px_0_rgba(24,24,27,1)] flex items-center justify-center text-zinc-900 hover:-translate-y-1 transition-transform"
+        class="fixed top-20 right-4 z-[60] bg-white/90 p-3 w-12 h-12 md:w-14 md:h-14 rounded-full border-2 border-zinc-900 shadow-md flex items-center justify-center text-zinc-900 hover:-translate-y-1 transition-transform"
         :class="{ 'animate-pulse ring-4 ring-zinc-900/10': isPlaying }"
         aria-label="Toggle Audio"
       >
-        <span v-if="isPlaying" class="text-2xl">⏸</span>
-        <span v-else class="text-2xl">🎵</span>
+        <span v-if="isPlaying" class="text-xl md:text-2xl">⏸</span>
+        <span v-else class="text-xl md:text-2xl">🎵</span>
       </button>
     </ClientOnly>
 
