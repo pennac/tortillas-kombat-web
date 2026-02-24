@@ -42,10 +42,10 @@
         </div>
 
 <div 
-  v-if="panel.textBottom"
+  v-if="panel.textEffect"
   v-motion
   :initial="{ opacity: 0, scale: 0, rotate: -25 }"
-  :enter="{ 
+  :visibleOnce="{ 
     opacity: 1, 
     scale: 1.2,
     rotate: -5, 
@@ -71,7 +71,7 @@
          -webkit-text-stroke: 3px #000;    /* Bordo Nero */
          text-shadow: 6px 6px 0px #000;    /* Ombra netta 'Hard Shadow' */
        ">
-      {{ panel.textBottom }}
+      {{ panel.textEffect }}
     </p>
   </div>
 </div>
@@ -97,7 +97,7 @@
           class="absolute bottom-0 left-0 w-full z-10 px-6 pb-24 md:pb-8 flex flex-col items-center text-center">
           
             <p class="font-header text-2xl md:text-3xl text-amber-400 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
-              {{ panel.textOverlay }}
+              {{ panel.text }}
             </p>
           
         </div>
