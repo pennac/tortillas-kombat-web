@@ -30,29 +30,76 @@
         </div>
 
         <div 
-          v-if="panel.textEffect"
+          v-if="panel.textBottom"
           v-motion
           :initial="{ opacity: 0, scale: 0.3, rotate: -15 }"
           :visibleOnce="{ opacity: 1, scale: 1.1, rotate: 5, transition: { type: 'spring', stiffness: 300, damping: 10 } }"
-          class="absolute top-[30%] left-0 w-full z-20 pointer-events-none flex justify-center px-4"
+          class="absolute top-[10%] left-0 w-full z-20 pointer-events-none flex justify-center px-4"
         >
-           <p class="font-header text-4xl md:text-7xl text-amber-600 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
-             {{ panel.textEffect }}
+           <p class="font-header text-2xl md:text-3xl text-amber-400 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
+             {{ panel.textBottom }}
            </p>
         </div>
+
+<div 
+  v-if="panel.textBottom"
+  v-motion
+  :initial="{ opacity: 0, scale: 0, rotate: -25 }"
+  :enter="{ 
+    opacity: 1, 
+    scale: 1.2,
+    rotate: -5, 
+    transition: { 
+      type: 'spring', 
+      stiffness: 500,
+      damping: 12
+    } 
+  }"
+  class="absolute top-[35%] left-0 w-full z-20 pointer-events-none flex justify-center px-4"
+>
+  <div class="relative group">
+    <div class="absolute inset-0 scale-[1.8] z-0 opacity-100" 
+         style="background-color: #ffde00; 
+                clip-path: polygon(50% 0%, 65% 20%, 95% 5%, 85% 40%, 100% 50%, 85% 60%, 95% 95%, 65% 80%, 50% 100%, 35% 80%, 5% 95%, 15% 60%, 0% 50%, 15% 40%, 5% 5%, 35% 20%);
+                border: 4px solid black;">
+    </div>
+
+    <p class="relative z-10 font-black text-5xl md:text-7xl text-white uppercase tracking-tighter transform scale-y-125 italic"
+       style="
+         color: #fff;
+         -webkit-text-fill-color: #ff3131; /* Interno Rosso */
+         -webkit-text-stroke: 3px #000;    /* Bordo Nero */
+         text-shadow: 6px 6px 0px #000;    /* Ombra netta 'Hard Shadow' */
+       ">
+      {{ panel.textBottom }}
+    </p>
+  </div>
+</div>
 
         <div 
           v-if="panel.textOverlay"
           v-motion
-          :initial="{ opacity: 0, y: 30 }"
-          :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800 } }"
-          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-24 md:pb-8 flex flex-col items-center text-center"
-        >
-          <div class="bg-white/95 backdrop-blur-sm border-2 border-zinc-900 p-5 shadow-[4px_4px_0_rgba(24,24,27,1)] max-w-[90%] md:max-w-2xl">
-            <p class="font-body text-base md:text-lg text-zinc-900 font-medium leading-relaxed">
+          :initial="{ opacity: 0, scale: 0.3, rotate: -15}"
+          :visibleOnce="{ opacity: 1, scale: 1.1, rotate: 5, transition: { type: 'spring', stiffness: 300, damping: 10 } }"
+          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-24 md:pb-8 flex flex-col items-center text-center">
+          
+            <p class="font-header text-2xl md:text-3xl text-amber-400 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
               {{ panel.textOverlay }}
             </p>
-          </div>
+          
+        </div>
+
+        <div 
+          v-if="panel.text"
+          v-motion
+          :initial="{ opacity: 0, scale: 0.3, rotate: -15}"
+          :visibleOnce="{ opacity: 1, scale: 1.1, rotate: 5, transition: { type: 'spring', stiffness: 300, damping: 10 } }"
+          class="absolute bottom-0 left-0 w-full z-10 px-6 pb-24 md:pb-8 flex flex-col items-center text-center">
+          
+            <p class="font-header text-2xl md:text-3xl text-amber-400 font-extrabold tracking-tighter drop-shadow-[2px_2px_0_rgba(24,24,27,1)] uppercase -rotate-6 transform scale-y-110 max-w-[90vw] whitespace-normal break-words leading-none overflow-hidden text-center" style="text-shadow: 2px 2px 0 #18181b, -2px -2px 0 #18181b, 2px -2px 0 #18181b, -2px 2px 0 #18181b;">
+              {{ panel.textOverlay }}
+            </p>
+          
         </div>
 
          <div 
@@ -108,6 +155,9 @@ interface Panel {
   src: string;
   textOverlay?: string;
   textEffect?: string;
+  textBottom?: string;
+  text?: string;
+  description?: string;
 }
 
 interface Chapter {
